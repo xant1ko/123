@@ -1,0 +1,134 @@
+@font-face {
+font-family: 'Inter';
+src: url(/src/fonts/Inter.otf);
+}
+@font-face {
+font-family: 'Inter-regular';
+src: url(/src/fonts/Inter-Medium.otf);
+}
+@font-face {
+font-family: 'helvetica_regular';
+src: url(/src/fonts/helvetica_regular.otf);
+}
+@font-face {
+font-family: 'helvetica_bold';
+src: url(/src/fonts/helvetica_bold.otf);
+}
+.col-header {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.0);
+    margin: 30px;
+    margin-bottom: 20px;
+}
+.col3 {
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.0);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.left, .middle, .right {
+    flex: 1;
+    max-width: 33.3%;
+    min-width: 33.3%;
+    
+}
+.col3-text {
+    font-family: 'Inter-regular';
+    text-decoration: none;
+    color: black;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-size: 20px;
+}
+.left {}
+.ab {
+    font-family: "helvetica_bold";
+    font-size: 25px;
+    margin-left: 40%;
+}
+.ab-text {
+    color: black;
+    text-decoration: none;
+}
+.abcon {
+    float: inline-end;
+    margin-right: 40%;
+    display: flex;
+}
+.examback {
+    background-color: rgb(175, 175, 175);
+}
+.left {
+}
+.body {
+    background-color: rgb(255, 255, 255);
+}
+.background {
+background-image: url(/src/components/picflower.png);
+  background-size: 37%;
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-position-y: 100%;
+  background-attachment: fixed;
+  min-height: 91%;
+}
+.www {
+padding-left: 15%;
+min-height: 100vh;
+margin-top: 100px;
+
+}
+.discover-card {
+background-color: rgba(255, 255, 255, 0.4);
+backdrop-filter: blur(9px);
+border-radius: 20px;
+height: 95%;
+max-width: 55%;
+margin-top: 50px;
+margin-bottom: 50px;
+padding-bottom: 30px;
+max-height: max-content;
+}
+.discover {
+    font-family: "Inter";
+    font-size: 42px;
+    padding-top: 30px;
+    padding-left: 20px;
+    line-height: 120%;
+}
+.order {
+    text-transform: none;
+    font-family: 'Inter-regular';
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: rgb( 248, 174, 255);
+    font-size: 20px;
+    font-weight: 100;
+}
+.we-create {
+    padding-left: 20px;
+    line-height: 16px;
+    font-family: 'helvetica_regular';
+}
+.header-custom {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(9px);
+}
+.btn {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
