@@ -18,6 +18,7 @@ onMounted(() =>{ showLabel() })
   <v-app class="background">
   <headerCustom/>
   <RouterView/>
+  <footerCustom/>
   </v-app>
 </template>
 <style scoped>

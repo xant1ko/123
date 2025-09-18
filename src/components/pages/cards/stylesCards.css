@@ -1,0 +1,42 @@
+@font-face {
+font-family: 'helvetica_light';
+src: url(/src/fonts/helvetica_light.otf);
+}
+@font-face {
+font-family: 'Inter-regular';
+src: url(/src/fonts/Inter-Medium.otf);
+}
+@font-face {
+font-family: 'Inter-light';
+src: url(/src/fonts/Inter.otf);
+}
+.v-col {
+    padding: 0;
+}
+.v-container {
+    padding: 0;
+}
+.textPink {
+    font-family: 'helvetica_regular';
+    font-size: 22px;
+    color: #FF0088;
+}
+.textq {
+    font-family: 'Inter-light';
+    font-size: 13px;
+}
+.textw {
+    font-family: 'Inter-Regular';
+    font-size: 11px;
+}
+.vrow {
+    max-width: 400px; 
+    padding-left: 10px;
+}
+.back {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(9px);
+    padding: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}

@@ -48,7 +48,7 @@ const props = defineProps({
                 <label v-if="!discount">{{ 'Price = $' + price }}</label>
                 <label v-if="discount">{{ 'Price = $' + (price-Discount) }}</label>
                 <label v-if="discount">{{ price }}</label>
-                <v-btn variant="text" class="params">
+                <v-btn variant="text" class="params ">
                     Buy
                 </v-btn>
             </v-col>

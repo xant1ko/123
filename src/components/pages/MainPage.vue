@@ -1,54 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import router from '/src/router';
+import router from "/src/router";
+import firstCard from "/src/components/pages/cards/1stCard.vue"
+import secondCard from "/src/components/pages/cards/2ndCard.vue"
+import thirdCard from "/src/components/pages/cards/3rdCard.vue"
+import fourstCard from "/src/components/pages/cards/4stCard.vue"
+import fivestCard from "/src/components/pages/cards/5stCard.vue"
+import sixstCard from "/src/components/pages/cards/6stCard.vue"
 
-const products = ref<Object[]>([
-  {
-    name: 'Roses',
-    price: 3000,
-    params: [
-      'exquisite',
-      'expensive',
-    ],
-  },
-  {
-    name: 'Вaisies',
-    price: 1500,
-    params: [
-      'field',
-      'cute',
-    ],
-  },
-  {
-    name: 'Poppy',
-    price: 3000,
-    params: [
-      'incapacitates',
-      'priceless',
-    ],
-  }
-])
-
-const productWithDiscount = ref<Object>([
-  {
-    name: 'Оленья голова',
-    price: 6999,
-    Discount: 999,
-    params: [
-      'настоящая',
-      'красиво висит на стене',
-    ],
-  },
-  {
-    name: 'Банка окурков',
-    price: 500,
-    Discount: 50,
-    params: [
-      'аутентично выглядит',
-      '+вайб',
-    ],
-  },
-])
 </script>
 
 <template>
@@ -75,7 +34,39 @@ const productWithDiscount = ref<Object>([
     </p>
   </div>
   </v-container>
-  
+  <div style="margin-bottom: 40px;">
+  <v-container class="www" style="min-height: auto;">
+    <v-row style="padding-bottom: 40px;">
+      <p class="textPink">Popular Bouquets</p>
+    </v-row>
+    <v-row aligh="start">
+      <v-col style="max-width: 400px; padding-right: 30px;">
+       <firstCard/>
+      </v-col >
+      <v-col style="max-width: 270px;">
+       <secondCard/>
+      </v-col>
+      <v-col style="max-width: 270px;">
+       <thirdCard style="margin-left: 90%;"/>
+      </v-col>
+      </v-row>
+  </v-container>
+  <v-container class="www" style="min-height: auto; margin-top: 60px;">
+    <v-row>
+    <v-col style="max-width: 270px;" cols="3">
+      <fourstCard/>
+    </v-col>
+    <v-col style="max-width: 270px; margin-left: 20px;" cols="3">
+    <fivestCard/>
+    </v-col>
+    <v-col style="max-width: 400px;">
+      <sixstCard style="margin-left: 58%;"/>
+    </v-col>
+    </v-row>
+  </v-container>
+  </div>
+  <div>
+  </div>
     </v-app>
 </template>
 
